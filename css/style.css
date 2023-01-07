@@ -1,0 +1,135 @@
+header{
+	width: auto;
+	height: 300px;
+}
+.logo{
+	height: 150px;
+	width: 250px;
+	background: url(img/лого.png);
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	transform: translate(0,50%);
+}
+.logo_text{
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	transform: translate(18%,-50%);
+	text-align: center;
+}
+
+.vxod{
+	height: 50px;
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	transform: translate(0,50%);
+	margin-bottom: 30px;
+}
+
+.vozvrat{
+	float: right;
+	margin: -120px 20px;
+	height: 50px;
+	width: 100px;
+}
+.fone{
+	background: url(img/фон_кнопка.jpg);
+	height: 600px;
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+body{
+	background: url(img/фон.jpg);
+	
+}
+/*Главная страница*/
+
+li {
+	list-style: none;
+}
+.clcl{
+	width: 100%;
+	height: 100px;
+	display: block;
+}
+.clcl_button{
+	width: 150px;
+	height: 50px;
+	background: url(img/гнопка.jpg);
+	color: white;
+}
+
+/*Регистрация*/
+.zakaz {
+	padding: 40px;
+	margin: 10px;
+}
+.iform {
+		background: #F2F2F2;
+		border-radius: 4px;
+		border: 1px solid black;
+		padding: 5px 10px;
+		margin: 10px;
+}
+.reg{
+	width: 50%;
+	float: left;
+	color: white;
+}
+.tex_reg{
+	margin: 5px;
+	color: white;
+}
+.tex_reg label{
+	float: left;
+	width: 70px;
+	padding: 12px 0px;
+	position: relative;
+}
+.avtoreg{
+	width: 50%;
+	float: right;
+	color: white;
+}
+.code{
+	display: none;
+}
+
+/*Страница 3*/
+.list{
+	width: auto;
+}
+.listlevels{
+	width: 10px;
+	height: 10px;
+	padding: 50px;
+}
+.listlevelsvin{
+	width: 10px;
+	height: 10px;
+	padding: 50px;
+	background-color: green;
+}
+.playzone{
+	height: 800px;
+	font-size: 20px;
+	color: white;
+	padding: 20px;
+}
+.end{
+	height: 900px;
+	width: 700px;
+	/*background: url(img/Энделион сайт 2 цвет.png);*/
+	background: white;
+	float: right;
+	margin: 30px;
+}
+footer{
+	width: 100%;
+	height: 200px;
+	background-color: black;
+}
